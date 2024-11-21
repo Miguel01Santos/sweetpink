@@ -37,7 +37,7 @@ function App() {
       <header className="headerPage">
         <div className="tela">
           <div className="containerLogotipo">
-            <a href="https://www.ifood.com.br/delivery/sao-jose-do-rio-preto-sp/sweet-pink-jardim-dos-buritis/d69e98f1-ac4f-4195-9408-0162225f5611" target="blank"><img className="sweet" src={logo} /></a>
+            <a href="https://www.ifood.com.br/delivery/sao-jose-do-rio-preto-sp/sweet-pink-jardim-dos-buritis/d69e98f1-ac4f-4195-9408-0162225f5611" target="blank"><img className="sweet" src={logo} alt="" /></a>
             
           </div>
           <div className="containerDegrade">
@@ -66,37 +66,37 @@ function App() {
       <main className="mainPage">
         <div className="containerMain1">
           <div className="product">
-            <img className="foto" src={banoffe} />
+            <img className="foto" src={banoffe} alt=""/>
             <span className="titleProduct">Torta Banoffee</span>
           </div>
           <div className="product">
-            <img className="foto" src={boloParaCorte} />
+            <img className="foto" src={boloParaCorte} alt=""/>
             <span className="titleProduct">Bolo para Corte</span>
           </div>
           <div className="product">
-            <img className="foto" src={coneOreo} />
+            <img className="foto" src={coneOreo} alt=""/>
             <span className="titleProduct">Cone com Oreo</span>
           </div>
           <div className="product">
-            <img className="foto" src={brownieRecheados} />
+            <img className="foto" src={brownieRecheados} alt=""/>
             <span className="titleProduct">Brownies Recheados</span>
           </div>
         </div>
         <div className="containerMain2">
           <div className="product">
-            <img className="foto" src={boloPoteMorango} />
+            <img className="foto" src={boloPoteMorango} alt=""/>
             <span className="titleProduct">Bolos de Pote</span>
           </div>
           <div className="product">
-            <img className="foto" src={coneBeijinho} />
+            <img className="foto" src={coneBeijinho} alt=""/>
             <span className="titleProduct">Cone de Beijinho</span>
           </div>
           <div className="product">
-            <img className="foto" src={miniboloNinhoComNutella} />
+            <img className="foto" src={miniboloNinhoComNutella} alt=""/>
             <span className="titleProduct">Mini Bolo Ninho Nutella</span>
           </div>
           <div className="product">
-            <img className="foto" src={miniboloOreo} />
+            <img className="foto" src={miniboloOreo} alt=""/>
             <span className="titleProduct">Mini Bolo de Oreo</span>
           </div>
         </div>
@@ -112,7 +112,7 @@ function App() {
           ingredientes de alta qualidade, tornando cada momento ainda mais doce
           e inesquecível. ✨
         </span>
-        <img className="sweetLogo" src={logo} />
+        <img className="sweetLogo" src={logo} alt=""/>
       </div>
 
       <footer>
