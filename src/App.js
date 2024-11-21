@@ -16,9 +16,8 @@ function App() {
         <div className="title-mark">
           <span>Sweet Pink Doces Gourmet</span>
         </div>
-        <div className="contact">
-          <span>Localizado em São José do Rio Preto - São Paulo</span>
-          <div className="fone">
+        <span>Localizado em São José do Rio Preto - São Paulo</span>
+        <div className="fone">
             <i class="bi bi-telephone-fill"></i>
             <span>17 99116-7008</span>
           </div>
@@ -26,7 +25,6 @@ function App() {
             <i class="bi bi-envelope-fill"></i>
             <span>sweetpinkconfeitaria@gmail.com</span>
           </div>
-        </div>
         <div className="midias">
           <a href="https://www.instagram.com/sweetpinkgourmet?igsh=MTZ2aGtqdzQzdDc3ag==" target="blank"><i class="bi bi-instagram"></i></a>
           <a href="https://www.instagram.com/sweetpinkgourmet?igsh=MTZ2aGtqdzQzdDc3ag==" target="blank"><i class="bi bi-facebook"></i></a>
