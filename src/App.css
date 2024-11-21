@@ -1,38 +1,271 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.containerApp {
+  height: 370vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+}
+
+.aboutStore {
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
   color: white;
+  border-bottom: solid white 1px;
+  background-image: linear-gradient(90deg, #ee7b77, rgb(255, 0, 81));
+
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 100px;
+  }
+
+  .midias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+
+    a {
+      text-decoration: none;
+    }
+    
+  }
 }
 
-.App-link {
-  color: #61dafb;
+.sweet {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.headerPage {
+  height: 82vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-image: url("https://www.emporiumpax.com.br/wp-content/uploads/2022/01/Receita-de-torta-de-Bananada-Banoffee.webp");
+
+  .tela {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgba(238, 23, 91, 0.42);
+
+    .containerLogotipo {
+      height: 100%;
+      width: 55%;
+    }
+
+    .containerDegrade {
+      height: 100%;
+      width: 45%;
+      background-image: linear-gradient(
+        90deg,
+        rgba(238, 23, 91, 0),
+        rgb(255, 0, 81)
+      );
+
+      .containerDegrade2 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 100px;
+        padding-bottom: 50px;
+        background-image: linear-gradient(
+          90deg,
+          rgba(247, 15, 89, 0.76),
+          rgb(255, 0, 81)
+        );
+
+        .mark {
+          color: white;
+          font-size: 90px;
+        }
+        .slogan {
+          color: white;
+          font-family: "Dancing Script", cursive;
+          font-size: 90px;
+        }
+      }
+    }
   }
-  to {
-    transform: rotate(360deg);
+}
+
+.aboutSweet {
+  height: 68vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-top: solid white 2px;
+  background-color: #ee7b77;
+
+  .script {
+    font-size: 25px;
+    color: white;
+
+    .banoffeeText {
+      cursor: pointer;
+      color: rgb(255, 0, 81);
+    }
   }
+  .menu {
+    font-size: 50px;
+    color: white;
+  }
+}
+
+.mainPage {
+  height: 120vh;
+  width: 100%;
+  background-color: #ee7b77;
+
+  .containerMain1 {
+    margin-top: 30px;
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+    .product {
+      height: 95%;
+      width: 18%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      transition: 0.2s;
+      cursor: pointer;
+
+      .foto {
+        height: 80%;
+        width: 92%;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-top: solid white 2px;
+        border-right: solid white 2px;
+        border-left: solid white 2px;
+      }
+
+      .titleProduct {
+        height: 15%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Dancing Script", cursive;
+        font-size: 30px;
+        background-color: white;
+        color: rgb(255, 0, 81);
+        border: solid white 2px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+    }
+  }
+  .product:hover {
+    margin-bottom: 50px;
+  }
+
+  .containerMain2 {
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+    .product {
+      height: 95%;
+      width: 18%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      transition: 0.2s;
+      cursor: pointer;
+
+      .foto {
+        height: 80%;
+        width: 92%;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-top: solid white 2px;
+        border-right: solid white 2px;
+        border-left: solid white 2px;
+      }
+      .titleProduct {
+        height: 15%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Dancing Script", cursive;
+        font-size: 30px;
+        background-color: white;
+        color: rgb(255, 0, 81);
+        border: solid white 2px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+    }
+  }
+}
+
+.aboutUs {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #ee7b77;
+
+  span {
+    font-size: 25px;
+  }
+
+  .sweetLogo {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 300px;
+    border-radius: 50%;
+  }
+}
+
+footer {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ee7b77;
+  font-family: "Dancing Script", cursive;
+  font-size: 90px;
+  background-color: #f6eea7;
 }
