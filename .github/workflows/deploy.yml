@@ -1,0 +1,28 @@
+name: Deploy para Hostinger
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:   
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clonar o repositório
+      uses: actions/checkout@v3
+
+    - name: Instalar dependências
+      run: |
+        npm install
+        npm run build
+
+    - name: Fazer upload via FTP
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: ftp://www.sweetpink.com.br
+        username: miguelproveza
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: build
+        server-dir: /public_html
